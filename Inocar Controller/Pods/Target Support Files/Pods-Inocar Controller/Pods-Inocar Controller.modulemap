@@ -1,0 +1,6 @@
+framework module Pods_Inocar_Controller {
+  umbrella header "Pods-Inocar Controller-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA355D141F88FAF200C05878 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA355D131F88FAF200C05878 /* ControlView.swift */; };
+		BA786E0C1F8005DE0023E606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786E0B1F8005DE0023E606 /* AppDelegate.swift */; };
+		BA786E0E1F8005DE0023E606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA786E0D1F8005DE0023E606 /* ViewController.swift */; };
+		BA786E111F8005DE0023E606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA786E0F1F8005DE0023E606 /* Main.storyboard */; };
+		BA786E131F8005DE0023E606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA786E121F8005DE0023E606 /* Assets.xcassets */; };
+		BA786E161F8005DE0023E606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA786E141F8005DE0023E606 /* LaunchScreen.storyboard */; };
+		C1828CBE423ECA02F1C5FDED /* Pods_Inocar_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAF21B299D2D170ED32FCB /* Pods_Inocar_Controller.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BAAF21B299D2D170ED32FCB /* Pods_Inocar_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inocar_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805D366009E8709E922E64E4 /* Pods-Inocar Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inocar Controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inocar Controller/Pods-Inocar Controller.release.xcconfig"; sourceTree = "<group>"; };
+		BA355D131F88FAF200C05878 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		BA786E081F8005DE0023E606 /* Inocar Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inocar Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA786E0B1F8005DE0023E606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA786E0D1F8005DE0023E606 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		BA786E101F8005DE0023E606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA786E121F8005DE0023E606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA786E151F8005DE0023E606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA786E171F8005DE0023E606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A686F13F355FFEBB2AFB9B /* Pods-Inocar Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inocar Controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inocar Controller/Pods-Inocar Controller.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA786E051F8005DE0023E606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1828CBE423ECA02F1C5FDED /* Pods_Inocar_Controller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F965DD08E919BD660985B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAF21B299D2D170ED32FCB /* Pods_Inocar_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B283C12656A2B0B60D3E83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9A686F13F355FFEBB2AFB9B /* Pods-Inocar Controller.debug.xcconfig */,
+				805D366009E8709E922E64E4 /* Pods-Inocar Controller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA786DFF1F8005DE0023E606 = {
+			isa = PBXGroup;
+			children = (
+				BA786E0A1F8005DE0023E606 /* Inocar Controller */,
+				BA786E091F8005DE0023E606 /* Products */,
+				62B283C12656A2B0B60D3E83 /* Pods */,
+				1F965DD08E919BD660985B52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA786E091F8005DE0023E606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA786E081F8005DE0023E606 /* Inocar Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA786E0A1F8005DE0023E606 /* Inocar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA786E0B1F8005DE0023E606 /* AppDelegate.swift */,
+				BA786E0D1F8005DE0023E606 /* ViewController.swift */,
+				BA355D131F88FAF200C05878 /* ControlView.swift */,
+				BA786E0F1F8005DE0023E606 /* Main.storyboard */,
+				BA786E121F8005DE0023E606 /* Assets.xcassets */,
+				BA786E141F8005DE0023E606 /* LaunchScreen.storyboard */,
+				BA786E171F8005DE0023E606 /* Info.plist */,
+			);
+			path = "Inocar Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA786E071F8005DE0023E606 /* Inocar Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA786E1A1F8005DE0023E606 /* Build configuration list for PBXNativeTarget "Inocar Controller" */;
+			buildPhases = (
+				428C63420034B03DCEEBC52A /* [CP] Check Pods Manifest.lock */,
+				BA786E041F8005DE0023E606 /* Sources */,
+				BA786E051F8005DE0023E606 /* Frameworks */,
+				BA786E061F8005DE0023E606 /* Resources */,
+				B7B097FE66256E911925EA01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inocar Controller";
+			productName = "Inocar Controller";
+			productReference = BA786E081F8005DE0023E606 /* Inocar Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA786E001F8005DE0023E606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Valentin Knabel";
+				TargetAttributes = {
+					BA786E071F8005DE0023E606 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA786E031F8005DE0023E606 /* Build configuration list for PBXProject "Inocar Controller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA786DFF1F8005DE0023E606;
+			productRefGroup = BA786E091F8005DE0023E606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA786E071F8005DE0023E606 /* Inocar Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA786E061F8005DE0023E606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA786E161F8005DE0023E606 /* LaunchScreen.storyboard in Resources */,
+				BA786E131F8005DE0023E606 /* Assets.xcassets in Resources */,
+				BA786E111F8005DE0023E606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		428C63420034B03DCEEBC52A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inocar Controller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B097FE66256E911925EA01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inocar Controller/Pods-Inocar Controller-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDJoystick/CDJoystick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBluetoothKit/RxBluetoothKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDJoystick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBluetoothKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inocar Controller/Pods-Inocar Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA786E041F8005DE0023E606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA786E0E1F8005DE0023E606 /* ViewController.swift in Sources */,
+				BA355D141F88FAF200C05878 /* ControlView.swift in Sources */,
+				BA786E0C1F8005DE0023E606 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA786E0F1F8005DE0023E606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA786E101F8005DE0023E606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA786E141F8005DE0023E606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA786E151F8005DE0023E606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA786E181F8005DE0023E606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA786E191F8005DE0023E606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA786E1B1F8005DE0023E606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A686F13F355FFEBB2AFB9B /* Pods-Inocar Controller.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMF68UG2BU;
+				INFOPLIST_FILE = "Inocar Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vknabel.Inocar-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA786E1C1F8005DE0023E606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805D366009E8709E922E64E4 /* Pods-Inocar Controller.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMF68UG2BU;
+				INFOPLIST_FILE = "Inocar Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vknabel.Inocar-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA786E031F8005DE0023E606 /* Build configuration list for PBXProject "Inocar Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA786E181F8005DE0023E606 /* Debug */,
+				BA786E191F8005DE0023E606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA786E1A1F8005DE0023E606 /* Build configuration list for PBXNativeTarget "Inocar Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA786E1B1F8005DE0023E606 /* Debug */,
+				BA786E1C1F8005DE0023E606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA786E001F8005DE0023E606 /* Project object */;
+}
